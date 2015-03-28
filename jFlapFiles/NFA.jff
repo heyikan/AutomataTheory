@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 6.4.--><structure>
+	<type>fa</type>
+	<automaton>
+		<!--The list of states.-->
+		<state id="0" name="startState">
+			<x>66.0</x>
+			<y>184.0</y>
+			<initial/>
+		</state>
+		<state id="1" name="getEbay_E">
+			<x>208.0</x>
+			<y>97.0</y>
+		</state>
+		<state id="2" name="getWeb_W">
+			<x>214.0</x>
+			<y>249.0</y>
+		</state>
+		<state id="3" name="getEbay_B">
+			<x>426.0</x>
+			<y>97.0</y>
+		</state>
+		<state id="4" name="getEbay_A">
+			<x>623.0</x>
+			<y>97.0</y>
+		</state>
+		<state id="5" name="getEbay_Y">
+			<x>775.0</x>
+			<y>100.0</y>
+			<final/>
+		</state>
+		<state id="6" name="getWeb_E">
+			<x>421.0</x>
+			<y>247.0</y>
+		</state>
+		<state id="7" name="getWeb_B">
+			<x>618.0</x>
+			<y>249.0</y>
+			<final/>
+		</state>
+		<!--The list of transitions.-->
+		<transition>
+			<from>6</from>
+			<to>7</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>3</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>0</to>
+			<read>#</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>e</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>2</to>
+			<read>w</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>6</to>
+			<read>e</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>5</to>
+			<read>y</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read>a</read>
+		</transition>
+	</automaton>
+</structure>

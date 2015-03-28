@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string>
 using namespace std;
- 
+
 int currentLetterIndex = 0;
 string inputWord;
 bool isAcceptedState = false;
 bool isWordFind = false;
- 
+
 int acceptControl ( );
 void startState();
 
@@ -34,8 +34,10 @@ int main()
     cout << "Please enter a word!" << endl;
     cout << " Word = ";
     cin>> inputWord;
-     
+
     cout << " Word Length = " << inputWord.length() << endl;
+
+    // State Starting
     startState( );
 }
 
@@ -73,13 +75,11 @@ void startState ( )
         if ( inputWord[currentLetterIndex] == 'e' )
         {
             currentLetterIndex++;
-//            getKalem_K();
             getEbay_E();
         }
         else if ( inputWord[currentLetterIndex] == 'w' )
         {
             currentLetterIndex++;
-//            getLeman_L();
             getWeb_W();
         }
         else
@@ -93,6 +93,7 @@ void startState ( )
         cout << "This word NOT accepted!" << endl;
     }
 }
+
 void getEbay_E ( )
 {
     printStateName("E");
@@ -103,7 +104,6 @@ void getEbay_E ( )
         if ( inputWord[currentLetterIndex] == 'b' )
         {
             currentLetterIndex++;
-//            getKalem_A();
               getEbay_B();
         }
         else
@@ -114,6 +114,7 @@ void getEbay_E ( )
     else
         cout << "This word NOT accepted!" << endl;
 }
+
 void getEbay_B ( )
 {
     printStateName("EB");
@@ -124,7 +125,6 @@ void getEbay_B ( )
         if ( inputWord[currentLetterIndex] == 'a' )
         {
             currentLetterIndex++;
-//            getKalem_L();
             getEbay_A();
         }
         else
@@ -223,7 +223,7 @@ void getWeb_B()
         currentLetterIndex++;
         controlResult = acceptControl();
     }
-     
+
     cout << endl << "This word contains 'WEB'. ACCEPTED!" << endl;
     return;
 }
