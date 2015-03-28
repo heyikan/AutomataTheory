@@ -10,6 +10,10 @@ This is the diagram of Nondeterministic finite automata which matching string "e
 
 You Can Download jFLAP file [here.](/jFlapFiles/NFA.jff)
 
+####Sample Output:
+
+![NFA-output](/images/output-NFA.png)
+
 ##DFA
 
 This is the diagram of deterministic finite automata which matching string "ebay" and "web"
@@ -17,3 +21,7 @@ This is the diagram of deterministic finite automata which matching string "ebay
 ![DFA](/images/DFA.png)
 
 You Can Download jFLAP file [here.](/jFlapFiles/DFA.jff)
+
+####Sample Output:
+
+![DFA-output](/images/output-DFA.png)
