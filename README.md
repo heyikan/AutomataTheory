@@ -8,7 +8,7 @@ This is the diagram of Nondeterministic finite automata which matching string "e
 
 ![NFA](/images/NFA.png)
 
-You Can Download jFLAP file [here.](/jFlapFiles.NFA.jff)
+You Can Download jFLAP file [here.](/jFlapFiles/NFA.jff)
 
 ##DFA
 
@@ -16,4 +16,4 @@ This is the diagram of deterministic finite automata which matching string "ebay
 
 ![DFA](/images/DFA.png)
 
-You Can Download jFLAP file [here.](/jFlapFiles.DFA.jff)
+You Can Download jFLAP file [here.](/jFlapFiles/DFA.jff)
