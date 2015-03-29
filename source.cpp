@@ -1,3 +1,16 @@
+/*
+Project Github Page: https://github.com/heyikan/AutomataTheory
+
+This is the program of `Deterministic & NonDeterministic Finite Automata` which matching string "ebay" and "web"
+
+2015. Hakan Kayakoku
+
+Ankara University
+11290284
+
+*/
+
+
 #include <iostream>
 #include <string>
 using namespace std;
