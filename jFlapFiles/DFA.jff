@@ -37,69 +37,12 @@
 			<y>310.0</y>
 			<final/>
 		</state>
-		<state id="8" name="q8">
-			<x>106.0</x>
-			<y>112.0</y>
-		</state>
 		<!--The list of transitions.-->
-		<transition>
-			<from>5</from>
-			<to>6</to>
-			<read>y</read>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>5</to>
-			<read>a</read>
-		</transition>
-		<transition>
-			<from>4</from>
-			<to>0</to>
-			<controlx>16</controlx>
-			<controly>414</controly>
-			<read>#</read>
-		</transition>
-		<transition>
-			<from>6</from>
-			<to>0</to>
-			<controlx>-122</controlx>
-			<controly>-122</controly>
-			<read>#</read>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>3</to>
-			<read>b</read>
-		</transition>
 		<transition>
 			<from>5</from>
 			<to>0</to>
 			<controlx>-59</controlx>
 			<controly>-55</controly>
-			<read>#</read>
-		</transition>
-		<transition>
-			<from>2</from>
-			<to>4</to>
-			<read>e</read>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>2</to>
-			<read>w</read>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>0</to>
-			<controlx>14</controlx>
-			<controly>-14</controly>
-			<read>#</read>
-		</transition>
-		<transition>
-			<from>7</from>
-			<to>0</to>
-			<controlx>-37</controlx>
-			<controly>538</controly>
 			<read>#</read>
 		</transition>
 		<transition>
@@ -124,6 +67,45 @@
 			<to>0</to>
 			<controlx>44</controlx>
 			<controly>54</controly>
+			<read>#</read>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>6</to>
+			<read>y</read>
+		</transition>
+		<transition>
+			<from>4</from>
+			<to>0</to>
+			<controlx>16</controlx>
+			<controly>414</controly>
+			<read>#</read>
+		</transition>
+		<transition>
+			<from>2</from>
+			<to>4</to>
+			<read>e</read>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>2</to>
+			<read>w</read>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>3</to>
+			<read>b</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>5</to>
+			<read>a</read>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>0</to>
+			<controlx>14</controlx>
+			<controly>-14</controly>
 			<read>#</read>
 		</transition>
 	</automaton>

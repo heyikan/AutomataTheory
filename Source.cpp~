@@ -119,7 +119,6 @@ void NFA::printState ( string stateName ,int currentLetterIndex )
 
 bool NFA::startState ( int currentLetterIndex )
 {
-
     if ( !controlLength(currentLetterIndex) )
         return false;
     printState( "startState" , currentLetterIndex );
